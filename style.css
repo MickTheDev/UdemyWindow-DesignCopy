@@ -1,0 +1,147 @@
+@import url('https://fonts.googleapis.com/css2?family=Poppins:ital,wght@0,100;0,200;0,300;0,400;0,500;0,600;0,700;0,800;0,900;1,100;1,200;1,300;1,400;1,500;1,600;1,700;1,800;1,900&display=swap');
+
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    font-family: 'Poppins', sans-serif;
+}
+
+
+body {
+    min-height: 100vh;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    background: #1d1b31;
+}
+
+.window {
+    padding: 23px 20px;
+    width: 400px;
+    height: 520px;
+    background: #f2f2f2;
+    display: flex;
+    align-items: center;
+    justify-content: flex-start;
+    flex-direction: column;
+    row-gap: 10px;
+    box-shadow: 0 5px 10px rgba(0, 0, 0, .2);
+    position: relative;
+}
+
+.title {
+    width: 100%;
+}
+
+.title_content {
+    font-size: 1.3rem;
+    font-weight: 600;
+}
+
+.data {
+    width: 100%;
+    display: flex;
+    align-items: center;
+    justify-content: flex-start;
+    column-gap: 20px;
+}
+
+.tag {
+    width: max-content;
+    padding: 2px 6px;
+    background: rgba(229, 255, 0, .3)
+}
+
+.tag_content {
+    width: max-content;
+    font-weight: 700;
+    color: rgba(0, 0, 0, .7);
+}
+
+.update {
+    color: rgb(8, 110, 8);
+    font-weight: 500;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    font-size: 0.7rem;
+    column-gap: 5px;
+}
+
+.update span {
+    width: max-content;
+    display: flex;
+    align-items: center;
+    font-weight: 600;
+}
+
+.add {
+    width: 100%;
+    display: flex;
+    align-items: center;
+    justify-content: flex-start;
+    flex-direction: column;
+    row-gap: 8px;
+}
+
+.add .add_title {
+    width: 100%;
+    font-size: .8rem;
+    color: grey;
+}
+
+.add .add_content {
+    width: 100%;
+}
+
+.add .list_of_services {
+    width: 100%;
+    list-style: none;
+}
+
+.list_of_services li {
+    width: 100%;
+    display: flex;
+    align-items: flex-start;
+    justify-content: space-between;
+}
+
+.list_of_services li i {
+    font-size: 1.5rem;
+    width: 10%;
+}
+
+.list_of_services li span {
+    width: 90%;
+}
+
+.order {
+    margin-top: 10px;
+    width: 100%;
+    display: flex;
+    align-items: flex-start;
+    justify-content: space-between;
+}
+
+.order .add_to_cart {
+    width: 80%;
+    height: 60px;
+    border: none;
+    background: rgb(187, 60, 247);
+    font-size: 1rem;
+    font-weight: 600;
+    color: #fff;
+}
+
+.order .add_to_favorite {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    font-size: 2rem;
+    width: 60px;
+    height: 60px;
+    border-radius: 50%;
+    border: 2px solid #000;
+}
+
